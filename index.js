@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
@@ -27,3 +28,13 @@ function iLoveTheBeatles(number) {
   } while (number < 15);
   return array;
 }
+=======
+// add solution here
+function theBeatlesPlay(musicians, instruments) {
+  var array = [];
+  for (var i = 0; i < musicians.length; i++) {
+    array.push(musicians[i] + " plays " + instruments[i]);
+  }
+  return array;
+}
+>>>>>>> 6d656639eea44e24bbfa01c406411abb74644a10
